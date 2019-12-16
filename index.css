@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position:;
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  cursor: pointer;
+  z-index:-1;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display:none;
+  background-color: #f9f9f9;
+  margin-top: ;
+  min-width: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+}
+
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  margin-top:;
+  min-width: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content:hover .dropdown-content1 {
+  display: block;
+}
+
+.brand{
+  position:relative;
+  text-align: center;
+  font-family: Aclonica;
+  padding-left:3px;
+  padding-right: 3px; 
+  color:#ab5629;
+  transform: translate(-50%,-50%);
+  font-size: 3em;
+}
+#bone{
+  color: black;
+  text-decoration: none;
+  margin-left: 2%;
+}
+.brand-bar{
+  text-align: center;
+}
+.navbar{
+   background-color: #3ca832;
+   position: fixed;
+   width:100%;
+}
+#nav-items:hover{
+  background-color:#4dd5f7;
+  border: solid black 1px;
+}
+
+#nav-items{
+  text-align: center;
+  font-family: Mclaren;
+  font-size: 2em; 
+  padding: 1px;  
+  color: white;
+  float: left;
+  text-decoration:underline;
+  display: block;
+  background-color: #3ca832;
+  text-align: center;
+}
+
+#nav-items3{
+  font-size: 1.5em; 
+  padding: 3px;
+  border: solid black 1px;  
+  color: black;
+  float: left;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  text-align: center;
+}
+
+.nav-items2{
+  font-size: 1.5em;   
+  color: white;
+  float: right;
+  margin-right: 5%;
+  margin-top:;
+  background-color: #3ca832;
+  position:relative;
+  text-align: center;
+}
+
+.product{
+  font-size: 2em;
+  text-align: center;
+  padding: 2%;
+}
+.table{
+  position:all;
+  bottom:10%; 
+  width: 100%;
+  padding-top: 10%;
+z-index: -2;
+}
+table{
+  margin: 0;
+  width: 100%;
+
+}
+tr{
+  border:solid black 1px;
+}
+td{
+  border: solid black 1px;
+}
+#weight{
+  border: solid black 1px;
+
+}
+.buy{
+  color: white;
+  background-color: #3ca832;
+  border: solid black 1px; 
+  text-decoration: none;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  z-index:-1 ;
+}
+
+.buy:hover{
+  opacity: 0.7;
+  z-index:;
+}
+#images{
+  height: 20%;
+}
+@media screen and (max-width:500px ){
+  table{
+    padding-top: 15%;
+  }
+  #images{
+    width: 70%;
+    height:10%; 
+  }
+  .product{
+    font-size: 1.3em;
+  }
+  #nav-items{
+    font-size: 1.5em;
+    float: left;
+    position: ;
+  }
+  .brand{
+    background-color: yellow;
+    font-size: 2em;
+  }
+  .nav-items2{
+    float:;
+    font-size: 1.3em;
+    padding-left: 2px;
+  }
+  #nav-items3{
+    font-size: 1.5em;
+  }
+  .buy{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

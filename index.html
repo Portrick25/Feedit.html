@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+
+  });
+});
+</script>
+
+<title>Feedit.in</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=McLaren' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+		<div class="navbar">
+			<div class="brand-bar">
+				<b class ="brand">Feedit Dog Foods</b><br>
+			</div>
+			<div class="dropdown">
+				<b id="nav-items">BRANDS</b>
+			<div class="dropdown-content">
+			  <b id="nav-items3">Pedigree</b>
+			  <div class="dropdown-content1">
+			    <a href="#ped-junior">Junior</a>
+			    <a href="#ped-adult">Adult</a>
+
+			  </div>
+			</div>
+
+			<div class="dropdown-content">
+			  <b id="nav-items3" >Hills</b>
+			  <div class="dropdown-content1">
+			    <a href="#hill-junior">Junior</a>
+			    <a href="#hill-adult">adult</a>
+			  </div>
+			</div>
+			<!--
+			<div class="dropdown-content">
+			  <b id="nav-items3">Royal-Cannin</b>
+			  <div class="dropdown-content1">
+			    <a href="#royal-wet">Wet(Adult)</a>
+			    <a href="#royal-wet">Wet(Junior)</a>
+			    <a href="#royal-dry">Dry(Adult)</a>
+			    <a href="#royal-dry">Dry(Junior)</a>
+			    <a href="#royal-hypoallergenic">Hypoallergenic</a>
+
+
+			  </div>
+			</div>-->
+			
+			<div class="dropdown-content">
+			  <b id="nav-items3">Drools</b>
+			  <div class="dropdown-content1">
+			    <a href="#drool-junior">Junior</a>
+			    <a href="#drool-adult">Adult</a>
+			    <a href="#drool-calcium">Calcium</a>
+			  </div>
+
+			</div>
+			<div class="dropdown-content">
+			<div id="nav-items3">
+				<a href="#bones" id="bone"> <b>Bones</b></a>
+			</div>
+		</div>
+	</div>
+		<div class="nav-items2">
+			<b class="fa fa-phone"> +91 8527301746</b><br>
+			<b class="fa fa-envelope">Feeditindia@gmail.com</b>
+		</div>
+	</div>
+	<div class="table">
+	<table>
+			<td style="width: 20%; text-align: center;" id="ped-junior">
+				<img src="ped-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Puppy<br>Type: chicken & Milk<br>	
+				<b id="weight">3kg</b>
+				MRP: <del>₹ 630</del>₹	530<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Puppy<br>Type: chicken & Milk<br>	
+				<b id="weight">6kg</b>
+				MRP: <del>₹ 1200</del>₹	1050<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Puppy<br>Type: chicken & Milk<br>	
+				<b id="weight">10kg</b>
+				MRP: <del>₹ 1950</del>₹	1700<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Puppy<br>Type: chicken & Milk<br>	
+				<b id="weight">15kg</b>
+				MRP: <del>₹ 2720</del>₹	2500<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Puppy<br>Type: chicken & egg<br>	
+				<b id="weight">3kg</b>
+				MRP: <del>₹ 650</del>₹	560<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Puppy<br>Type: chicken & egg<br>	
+				<b id="weight">10kg</b>
+				MRP: <del>₹ 1970</del>₹	1700<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Puppy<br>Type: chicken & egg<br>	
+				<b id="weight">20kg</b>
+				MRP: <del>₹ 3500</del>₹	3400<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Puppy<br>Type: Meat and Milk<br>	
+				<b id="weight">20kg</b>
+				MRP: <del>₹ 3350</del>₹	3200<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Puppy<br>Type: Meat and veg<br>	
+				<b id="weight">20kg</b>
+				MRP: <del>₹ 3140</del>₹	3000<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+	</div>
+
+
+
+
+											
+
+
+
+
+
+											<!-- pedigree adult-->
+
+
+
+
+
+
+
+		<tr>
+			<td style="width: 20%; text-align: center;" id="ped-adult">
+				<img src="ped-adult.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Adult<br>Type: Chicken and vegetables<br>	
+				<b id="weight">3kg</b>
+				MRP: <del>₹ 600</del>  ₹ 499<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-adult.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Adult<br>Type: Chicken and vegetables<br>	
+				<b id="weight">6kg</b>
+				MRP: <del>₹ 1150</del>₹	1050<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-adult.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Adult<br>Type: Chicken and vegetables<br>	
+				<b id="weight">10kg</b>
+				MRP: <del>₹ 1790</del>₹	1500<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-adult.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Adult<br>Type: Chicken and vegetables<br>	
+				<b id="weight">15kg</b>
+				MRP: <del>₹ 2520</del>₹	2100<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-adult.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Adult<br>Type: Chicken and vegetables<br>	
+				<b id="weight">20kg</b>
+				MRP: <del>₹ 3140</del>₹	3000<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-adult.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Adult<br>Type: Meat & Rice<br>	
+				<b id="weight">3kg</b>
+				MRP: <del>₹ 600</del>₹	499<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-adult.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Adult<br>Type: Meat & Rice<br>	
+				<b id="weight">10kg</b>
+				MRP: <del>₹ 1790</del>₹	1560<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-adult.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Adult<br>Type: Vegetables<br>	
+				<b id="weight">3kg</b>
+				MRP: <del>₹ 675</del>₹	590<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+				<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="ped-adult.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">
+				Pedigree Adult<br>Senior<br>	
+				<b id="weight">20kg</b>
+				MRP: <del>₹ 3140</del>₹	3000<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+	</div>
+
+
+
+
+
+
+												<!-- drools -->
+
+
+
+
+
+
+										
+		<tr id="drool-adult">
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_large_breed.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Large Breed Adult Dog Food 3 Kg<br>
+				<img src="non-veg.jpg">
+				MRP: <del>₹ 650</del>₹	600<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_large_breed.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Large Breed Adult, Premium Dog Food, 12kg<br>
+				<img src="non-veg.jpg">
+				MRP: <del>₹ 2600</del>₹	2517<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_optimum.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Optimum Performance Adult Dog Food 20 Kg<br>
+				MRP: <del>₹ 2599</del>₹	2400<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_optimum.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Optimum Performance Adult Dog Food 10 Kg<br>
+				MRP: <del>₹ 1299</del>₹	1050<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_focus.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Focus Starter Dog Food 4 Kg<br>
+				MRP: <del>₹ 1800</del>₹	1500<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_focus.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Focus Starter Dog Food 15 Kg<br>
+				MRP: <del>₹ 5990</del>₹	5600<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_focus.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Focus Starter Dog Food 1.2 Kg<br>
+				MRP: <del>₹ 550</del>₹	450<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Adult Chicken And Vegetable 3.5kg<br>
+				MRP: <del>₹ 525</del>₹	480<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Adult Chicken And Vegetable 15kg<br>
+				MRP: <del>₹ 2290</del>₹	2100<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Adult Chicken And Vegetable 10kg<br>
+				MRP: <del>₹ 1590</del>₹	1450<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Adult Chicken And Egg 15kg<br>
+				MRP: <del>₹ 2290</del>₹	2150<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Adult Chicken And Egg 10kg<br>
+				MRP: <del>₹ 1500</del>₹	1400<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Adult Chicken And Egg 6.5kg<br>
+				MRP: <del>₹ 1180</del>₹	1100<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+
+											
+
+
+
+
+
+
+
+											<!-- drools calcium -->
+
+
+
+
+
+
+
+		<tr id="drool-calcium">
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_calcium.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Absolute Calcium Syrup 300 ml<br>
+				MRP: <del>₹ 199</del>₹	190<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_sausage.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Absolute Calcium Sausage 32 Pcs Jar<br>
+				MRP: <del>₹ 699</del>₹	665<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_sausage.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Absolute Calcium Sausage 18 Pcs Jar<br>
+				MRP: <del>₹ 450</del>₹	428<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+
+
+											<!--  Drools puppy -->
+		
+
+
+
+
+
+
+		<tr id="drool-junior">
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_focus_puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Focus Puppy Dog Food 4 Kg<br>
+				MRP: <del>₹ 1650</del>₹	1550<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_focus_puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Focus Puppy Dog Food 15 Kg<br>
+				MRP: <del>₹ 5550</del>₹	4700<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_focus_puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Focus Puppy Dog Food 1.2 Kg<br>
+				MRP: <del>₹ 500</del>₹	450<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_biscuit.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS PurePet Biscuit 1 Kg Chicken Flavour-JAR<br>
+				MRP: <del>₹ 250</del>₹	210<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_optimum_puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Drools Optimum Performance Puppy 20 Kg<br>
+				MRP: <del>₹ 2750</del>₹	2500<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition_puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Puppy Chicken And Egg 15 Kg<br>
+				MRP: <del>₹ 2450</del>₹	2300<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition_puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Puppy Chicken And Egg 10 Kg<br>
+				MRP: <del>₹ 1690</del>₹	1530<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition_puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Puppy Chicken And Egg 3.5 Kg<br>
+				MRP: <del>₹ 560</del>₹	590<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition_puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Puppy Chicken & Egg 6.5 Kg<br>
+				MRP: <del>₹ 1199</del>₹	1100<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="drools_nutrition_puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">DROOLS Daily Nutrition Puppy 100% Vegetarian 3kg<br>
+				MRP: <del>₹ 595</del>₹	540<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+
+
+
+
+
+														<!-- BONES-->
+
+
+
+
+
+
+
+        <tr id="bones">
+			<td style="width: 20%; text-align: center;">
+				<img src="bones-4inch.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Petsworld Rawhide Bones 10 cm (4 Inches) 1 Kg<br>
+				MRP: <del>₹ 500</del>₹	460<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="bones-4inch.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Rawhide Bones 10 cm (4 Inches) 1 Kg<br>
+				MRP: <del>₹ 500</del>₹	460<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="bones-4inch.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Rawhide Bones 15 cm (6 Inches) 1 Kg<br>
+				MRP: <del>₹ 500</del>₹	460<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="bones-9inch.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Rawhide Bones 22.5 cm (9 Inches) 1 Kg<br>
+				MRP: <del>₹ 250</del>₹	230<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="bones-4inch.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Rawhide Bones 15 cm (6 Inches) 500 g<br>
+				MRP: <del>₹ 250</del>₹	230<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="bones-4inch.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Rawhide Bones 10 cm (4 Inches) 500g<br>
+				MRP: <del>₹ 250</del>₹	230<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="bones-12inch.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Rawhide Bones 10 cm (12 Inches)<br>
+				MRP: <del>₹ 399</del>₹	350<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+
+
+
+
+
+
+
+														<!-- Hills -->
+
+
+
+
+		<tr id="hill-adult">
+			<td style="width: 20%; text-align: center;">
+				<img src="hills_sensitive.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Sensitive Stomach & Skin Adult Dog Food 1.81 Kg<br>
+				MRP: <del>₹ 1200</del>₹	1050<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-science-advance.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Advanced Fitness Adult Small Bites Dog Food 2kg<br>
+				MRP: <del>₹ 1250</del>₹	1200<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-large-breed.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Adult Large Breed Dog Food 7.94kg<br>
+				MRP: <del>₹ 3900</del>₹	3799<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-large-breed.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Adult Large Breed Dog Food 15kg<br>
+				MRP: <del>₹ 6800</del>₹ 5999<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-small-bites.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Adult 7+ Small Bites 2kg<br>
+				MRP: <del>₹ 1250</del>₹	1199<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-small-bites.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Adult Small Bites 8kg<br>
+				MRP: <del>₹ 4140</del>₹	3999<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-small-bites.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hill's Science Diet Adult Light Small Bites Dog Food 2 Kgs<br>
+				MRP: <del>₹ 1200</del>₹	1050<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-lamb-rice.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hill's Science Diet Adult Lamb & Rice Original Dog Food All Breeds 15 Kgs<br>
+				MRP: <del>₹ 7980</del>₹	7750<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-lamb-rice-large.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hill's Science Diet Adult Lamb & Rice Original Dog Food All Breeds 15 Kgs<br>
+				MRP: <del>₹ 7480</del>₹	7299<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-adv-fit.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hill's Science Diet Adult Advance Fitness Original Dog Food 15 Kgs<br>
+				MRP: <del>₹ 7200</del>₹	6700<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+
+
+
+
+												
+
+												<!-- Hills puppy -->
+
+
+
+
+
+		<tr id="hill-junior">
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-small-bites-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Puppy Small Bites 8 kg<br>
+				MRP: <del>₹ 4700</del>₹	4500<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-small-bites-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Puppy Small Bites 15 kg<br>
+				MRP: <del>₹ 7800</del>₹	7500<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-puppy-large-breed.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Puppy Large Breed 4kg<br>
+				MRP: <del>₹ 2300</del>₹	1900<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-puppy-large-breed.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Puppy Large Breed 15kg<br>
+				MRP: <del>₹ 2760</del>₹	6200<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-lamb-rice-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Puppy Lamb & Rice Small Bites 3kg<br>
+				MRP: <del>₹ 2100</del>₹	1999<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-lamb-rice-large.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hills Science Diet Puppy Lamb & Rice Large Breed 7.03 Kgs<br>
+				MRP: <del>₹ 4250</del>₹	4000<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-original-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hill's Science Diet Puppy Healthy Development Original Dog Food 15 Kgs<br>
+				MRP: <del>₹ 7900</del>₹	7700<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-can-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hill's Science Diet Puppy Chicken & Barley Entre Canned Food<br>
+				MRP: <del>₹ 330</del>₹	300<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="width: 20%; text-align: center;">
+				<img src="hills-lamb-rice-puppy.jpg" id="images" alt="image was here">
+			</td>
+			<td class="product">Hill's Science Diet Puppy Lamb & Rice Large Breed 15 Kgs<br>
+				MRP: <del>₹ 8430</del>₹	8150<br><br>
+				<a href="buy.html" class="buy">buy</a>
+			</td>
+		</tr>
+
+
+	</table>
+</div>
+</body>
+</html>
+
+
